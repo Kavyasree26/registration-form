@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CBIT Admission Form</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="registra.css">
+        <script src="SUBMIT.JS"></script>
+    
+    </head>
+
+    <body>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3"></div>
+                <div class="col-lg-6">
+                    <div id="ui">
+                        <P>CBIT REGISTRATION FORM</P>
+                    <form class="form-group">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <label>First Name:</label>
+                                <input type="text" name="fname" class="form-control" placeholder="enter your first name...">
+                            </div>
+
+                            <div class="col-lg-6">
+                                <label>Last Name:</label>
+                                <input type="text" name="lname" class="form-control" placeholder="enter your last name...">
+                            </div>
+                        </div><br>
+
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <label>E-Mail:</label>
+                                <input type="email" name="email" class="form-control" placeholder="enter your email here...">
+                            </div>
+
+                            <div class="col-lg-6">
+                                <label>contact number:</label>
+                                <input type="text" name="contact number" class="form-control" placeholder="enter your contact number here...">
+                            </div>
+                        </div>
+                        <br>
+
+                        <select class="form-control">
+                            <option>Choose Gender..</option>
+                            <option>Male</option>
+                            <option>female</option>
+                            <option>Others</option>
+                        </select><br>
+
+                        <select class="form-control">
+                            <option>Select the branch..</option>
+                            <option>CSE</option>
+                            <option>IT</option>
+                            <option>ECE</option>
+                            <option>EEE</option>
+                            <option>Chemical</option>
+                            <option>Bio-Tech</option>
+                        </select>
+                        <br>
+
+                        <input type="button" value="submit" name="submit" class="btn btn-primary btn-block btn-lg " onclick="Sub()">
+                    </form>
+                </div>
+                <div class="col-lg-3"></div>
+            </div>
+        </div>
+    </body>
+</html>
